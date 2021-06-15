@@ -4,7 +4,7 @@ body {
     background-attachment: fixed;
     background-position: center; 
     background-color: green;
-    font-size: 28px;
+    font-size: 16px;
 }
 
 .family {
@@ -56,7 +56,7 @@ body {
 }
 
 #scrollbox > p {
-    background-color: steelblue;
+    background-color: black;
 }
 
 /* Adding image sources */
