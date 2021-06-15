@@ -1,0 +1,73 @@
+body {
+    background-image: url("https://cdn.kimkim.com/files/a/content_articles/featured_photos/67e29f693c4419341c375d333e11c210955cf3dc/big-4961ddd185dc668d672a13b52b6fe90f.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-color: green;
+    font-size: 28px;
+}
+
+.family {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%; 
+    border: 30px solid;
+    border-image: repeating-linear-gradient(45deg, #56d, #3bf, #16b 30px) 60;
+    padding: 20px;
+}
+
+.home-buttons {
+    overflow: hidden;
+    background-color: #333;
+    margin: auto;
+}
+
+.home-buttons a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;  
+    font-family: "Georgia";     
+}
+
+.home-buttons a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.home-buttons a.active {
+    background-color: darkblue;
+    color: white;
+}
+
+#scrollbox {
+    position: relative;
+    top:110px;
+    left: 110px;
+    color: white;    
+    background-color: transparent;
+    width: 80%;
+    height: 300px;
+    overflow: scroll;
+    border: 20px solid rgba(0, 0, 0, 0.3);
+}
+
+#scrollbox > p {
+    background-color: steelblue;
+}
+
+/* Adding image sources */
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   top: 130px;
+   width: 100%;      
+   background-color: black;
+   color: gray;
+   text-align: left;
+   font-size: 15px; 
+}

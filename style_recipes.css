@@ -1,0 +1,86 @@
+body {
+    background-color: khaki;
+}
+
+.home-buttons {
+    overflow: hidden;
+    background-color: #333;
+    margin: auto;
+}
+
+.home-buttons a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;  
+    font-family: "Georgia";     
+}
+
+.home-buttons a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.home-buttons a.active {
+    background-color: darkblue;
+    color: white;
+}
+
+.initialBlock {
+    display: inline-block;
+    background-color: silver;
+}
+
+.initialBlock img {
+    width: 25%; 
+    float: right; 
+    border: 3px dotted black; 
+    margin: 0px 0px 15px 20px;
+}
+
+.initialBlock p {
+    display: block;
+    color: black;
+    font-size: 25px;    
+    padding-left: 50pt;
+    padding-right: 50pt;    
+}
+
+.initialBlock button {
+    display: block;
+    width: auto;
+    margin: 0 auto;     
+    width: 20%;    
+    margin-bottom: 10px; 
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;    
+    cursor: pointer;
+}
+
+ul,p {
+    font-size: 20px;    
+    padding-left: 50pt;
+    padding-right: 50pt; 
+}
+
+h2 {
+    padding-left: 50pt;
+    padding-right: 50pt; 
+}
+
+h1 {
+    text-align: center;
+}
+
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;      
+   background-color: black;
+   color: gray;
+   text-align: left;
+}

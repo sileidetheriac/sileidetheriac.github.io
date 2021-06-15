@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+  		<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<title>Leave Us Your Feedback</title>
+  		<link rel="stylesheet" href="feedback_style1.css" type="text/css">
+ 	</head>
+ 	<body>
+ 		<nav class="home-buttons">
+ 		  	<a href="./index.html">Home</a>
+ 		  	<a href="./explore.html">Explore Brazil</a>
+ 		  	<a href="./recipes.html">Recipes</a>
+ 		  	<a href="./aboutme.html">About Me</a>
+ 		  	<a class="active" href="./feedback.html">Leave Your Feedback</a>
+ 		</nav>
+
+ 		<form name="feedback" action="http://web.engr.oregonstate.edu/~zhangluy/tools/class-content/form_tests/check_request.php" onsubmit="return myForm()" method="GET" target="_blank">
+ 			
+ 			<label for="guestname">Name: </label>
+ 				<input id="guestname">
+ 				<br>
+
+ 			<label for="email">Email: </label>
+ 				<input id="email">
+ 				<br>
+
+ 			<label for="often">How Often Do You Cook? </label>
+ 				<br>
+ 				<span>Very Little</span>
+ 					<input id="often">
+ 				<span>All The Time</span>
+ 				<br>
+
+ 				<span>Favorite Recipes </span>
+ 				<br>
+ 			<label for="cheese">Cheese Bread </label>
+ 				<input id="cheese">
+ 			<label for="brigadeiro">Brigadeiro </label>
+ 				<input id="brigadeiro">
+ 			<label for="feijoada">Feijoada </label>
+ 				<input id="feijoada">
+ 			<label for="carrot">Carrot Cake </label>
+ 				<input id="carrot">
+ 				<br>
+
+ 				<span>Did you like the website? </span>
+ 				<br>
+ 			<label for="yes">Yes </label>
+ 				<input id="yes">
+ 			<label for="no">No </label>
+ 				<input id="no">
+ 				<br>
+ 				
+ 			<label for="comment">Would you like to leave a comment? </label>
+ 				<br>
+ 				<textarea id="comment"></textarea>
+ 				<br>
+ 				<input type="submit" value="Submit">
+ 			
+ 		</form>
+
+    	<section class="footer">
+        	<p>Background Image Source:        		
+        	http://www.kimkim.com</p>
+    	</section>
+
+
+ 		<script src="feedback_script.js"></script>
+ 	</body>
+</html>

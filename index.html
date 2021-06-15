@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+ 	<head>
+  		<meta charset="UTF-8">
+  		<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<title>Brazilian Recipes</title>
+  		<link rel="stylesheet" href="style.css" type="text/css">
+
+ 	</head>
+ 	<body> 
+ 			
+ 		<nav class="home-buttons">
+ 		  	<a class="active" href="./index.html">Home</a>
+        <a href="./explore.html">Explore Brazil</a>
+ 		  	<a href="./recipes.html">Recipes</a>
+ 		  	<a href="./aboutme.html">About Me</a>
+ 		  	<a href="./feedback.html">Leave Your Feedback</a>
+ 		</nav>
+
+    <div class="home-title">
+        <h1>Brazilian Recipes</h1>
+    </div>
+
+
+ 		<div class="animation">
+ 		    <div class="slides">
+ 		        <img src="https://www.receitasnestle.com.br/images/default-source/recipes/brigadeiro_alta.jpg" style='width: 100%;' alt="Brigadeiro"> 		    
+ 		    </div>
+ 		    <div class="slides">
+ 		       <img src="https://www.receitasnestle.com.br/images/default-source/recipes/bolo_de_cenoura.jpg" style='width: 100%;' alt="Carrot Cake"> 		    
+ 		    </div>
+ 		    <div class="slides">
+ 		       <img src="https://cookingwithdog.com/wp-content/uploads/2017/03/pao-de-queijo-00.jpg" style='width: 80%; margin-left: 15%;' alt="Cheese Bread"> 	   
+ 		    </div>
+ 		    <div class="slides">
+ 		       <img src='https://i.pinimg.com/736x/ff/24/e9/ff24e90198a593ebbe551a103b819ae2.jpg' style='width: 75%; margin-left: 15%' alt="Feijoada"> 		    
+ 		    </div>
+ 		       <a class="prev" onclick='changeSlides(-1)'>&#10094;</a>
+ 		       <a class="next" onclick='changeSlides(1)'>&#10095;</a>
+ 		</div>
+
+ 		<div style='text-align: center;'>
+ 		    <span class="dot" onclick='currentSlide(1)'></span>
+ 		    <span class="dot" onclick='currentSlide(2)'></span>
+ 		    <span class="dot" onclick='currentSlide(3)'></span>
+ 		    <span class="dot" onclick='currentSlide(4)'></span>
+ 		</div>
+ 		<br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="Carnaval.jpg" alt="Carnaval" style="width:100%; height:260px;">
+          <div class="container">
+            <h2>Explore Brazil</h2>
+            <p>Discover and learn more about the Brazilian Culture.</p>
+            <p><button id="b1" class="button">Read More</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="Food.jpg" alt="Cake" style="width:100%; height:260px;">
+          <div class="container">
+            <h2>Check Out Some Recipes</h2>
+            <p>Cook your own delicious Brazilian food!</p>
+            <p><button id="b2" class="button">See Recipes</button></p>
+          </div>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="Sign.jpg" alt="Sign" style="width:100%; height:260px;">
+          <div class="container">
+            <h2>Leave Us Your FeedBack</h2>
+            <p>Let us know what you think. Contact us!</p>
+            <p><button id="b3" class="button">Contact Us</button></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="footer">
+        <p>Images Sources:
+        https://www.receitasnestle.com.br / 
+        https://cookingwithdog.com  / 
+        http://www.kimkim.com</p>
+    </section>
+
+  	<script src="script.js"></script>
+ 	</body>
+</html>
