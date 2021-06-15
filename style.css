@@ -40,8 +40,8 @@ body {
     text-align: center;
     font-family: "Candara";
     line-height: 32px;
-    margin: 0 0 16px;      
-    background-color: lightblue;
+    margin: 0 0 16px;    
+    background-color: rgba(255,255,255,0.5);
 }
 
 /* Carousel animation section */
